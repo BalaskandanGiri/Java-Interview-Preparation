@@ -15,6 +15,7 @@ public class recurrsion_string {
                 str = str.substring(0,i) + '?' + str.substring(i+1);
             }
 
+            
         }
         if(!str.contains("?"))
         System.out.println(str);
